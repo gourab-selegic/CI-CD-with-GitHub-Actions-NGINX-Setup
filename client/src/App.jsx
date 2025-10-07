@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
 import './App.css';
-const API_BASE_URL = import.meta.env.VITE_REACT_APP_API_URL || 'http://localhost:8000/api';
+const API_BASE_URL = import.meta.env.VITE_REACT_APP_API_URL || 'http://localhost:6000/api';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -21,7 +21,7 @@ function App() {
         },
       });
       if (response.ok) {
-        setApiStatus('✅ API is running');
+        setApiStatus(`✅ API is running on port ${API_BASE_URL.split(':').pop()}`);
       } else {
         setApiStatus('❌ API is not healthy');
       }
