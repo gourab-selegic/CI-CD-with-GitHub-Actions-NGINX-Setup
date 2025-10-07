@@ -5,7 +5,7 @@ sudo apt-get update
 
 sudo apt-get install -y nginx
 
-sudo npm i -g pm2
+npm i -g pm2
 
 cd /etc/nginx/sites-available
 sudo nano default
