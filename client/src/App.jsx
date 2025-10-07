@@ -21,7 +21,7 @@ function App() {
         },
       });
       if (response.ok) {
-        setApiStatus('✅ API is running');
+        setApiStatus(`✅ API is running on port ${API_BASE_URL.split(':').pop()}`);
       } else {
         setApiStatus('❌ API is not healthy');
       }
