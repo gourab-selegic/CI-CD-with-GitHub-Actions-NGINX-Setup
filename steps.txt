@@ -1,14 +1,4 @@
-1. Setup the project for the full stack / if already no issues.
-2. should have a basic api.
-3. create ec2 instance on aws.
-4. Push your code to github.
-5. Setup the self-hosted runner on github.
-6. make the action file to get started with out deployment process.
-7. install dependices on the system and check code base.
-8. install inginx on the ec2 instance.
-9. deploy the backend.
-10. deployment the frontend.
-
+// 📦 6. Install Dependencies on EC2
 
 
 sudo apt-get update
