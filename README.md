@@ -1,5 +1,5 @@
 
-# 🚀 Full-Stack App Deployment on AWS EC2 with GitHub Actions
+# AWS EC2 with GitHub Actions
 
 
 * [AWS EC2 Console](https://console.aws.amazon.com/ec2/)
